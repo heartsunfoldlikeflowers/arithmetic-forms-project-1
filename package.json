@@ -1,0 +1,24 @@
+{
+  "name": "arithmetic-forms-project-1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "clean": "rm -rf dist/ && mkdir dist/",
+    "build": "cp -R js css dist/ && cp index.html dist/",
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/heartsunfoldlikeflowers/arithmetic-forms-project-1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/heartsunfoldlikeflowers/arithmetic-forms-project-1/issues"
+  },
+  "homepage": "https://github.com/heartsunfoldlikeflowers/arithmetic-forms-project-1#readme",
+  "dependencies": {
+    "gh-pages": "^3.2.3"
+  }
+}
