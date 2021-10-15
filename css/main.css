@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-image: url("numbers.jpg");
+    background-position: center;
+}
+
+h1 {
+  text-align: center;
+  margin: 1rem;
+  color: orangered;
+}
+
+div {
+  text-align: center;
+}
+
+.form {
+  max-width: 500px;
+  margin: auto;
+  color: darkred;
+  border: 10px solid; 
+}
+
+footer { 
+    text-align: center;
+    margin: auto;
+    color: black;
+}
